@@ -14,7 +14,9 @@ def turn_right():
 
 def clear_screen():
     t.clear()
-
+    t.pu()
+    t.home()
+    t.pd()
 
 t=Turtle()
 screen=Screen()
